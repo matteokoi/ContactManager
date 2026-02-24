@@ -38,44 +38,6 @@ This is a simple command-line Contact Manager application written in PHP. It all
 
 Here’s a README.md for your Contact Manager project:
 
-markdown
-Copia codice
-# PHP Contact Manager
-
-This is a simple command-line Contact Manager application written in PHP. It allows you to manage a list of contacts, including their names, email addresses, and phone numbers, stored in either JSON or CSV format.
-
-## Features
-
-- **Add** new contacts with a name, email, and phone number.
-- **List** all saved contacts with their details.
-- **Search** contacts by name.
-- **Delete** contacts by index.
-- Supports data storage in either **JSON** or **CSV** format.
-
-## Requirements
-
-- PHP 7.4 or higher
-
-## Setup
-
-1. Clone this repository or download the PHP script and place it in a directory on your system.
-2. Create a file named `contacts.json` (or `contacts.csv` if you prefer CSV) in the same directory.
-   - You can start with an empty file (`[]` for JSON or no content for CSV), or use sample data like below:
-
-   **Sample `contacts.json`**:
-   ```json
-   [
-       {
-           "name": "Alice Johnson",
-           "email": "alice.johnson@example.com",
-           "phone": "555-1234"
-       },
-       {
-           "name": "Bob Smith",
-           "email": "bob.smith@example.com",
-           "phone": "555-5678"
-       }
-   ]
 Usage
 Run the script from the command line with:
 
